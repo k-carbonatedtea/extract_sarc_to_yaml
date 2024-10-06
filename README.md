@@ -1,22 +1,29 @@
 中文说明
-代码 1: 提取文件并保存为 YAML 格式
+---
+
+python extract_to_yaml.py: 提取文件并保存为 YAML 格式
+
+
 此代码用于从指定目录中提取支持的文件格式（如 AAMP、BYML 和 MSBT），并将它们转换为 YAML 格式文件。
 
 使用步骤：
-        1.确保已安装所需的库（pyyaml, oead, pymsyt）。
-        2.在命令行中运行以下命令：`python extract_to_yaml.py <input_directory> <output_directory>`
+
+1.确保已安装所需的库（pyyaml, oead, pymsyt）。
+2.在命令行中运行以下命令：`python extract_to_yaml.py <input_directory> <output_directory>`
+
+
 一键安装所需库
 此代码用于一键安装所需的 Python 库。
 
 使用步骤：
-        1.在命令行中运行以下命令： `python install_packages.py`
+1.在命令行中运行以下命令： `python install_packages.py`
 
 
 English Instructions
 
 ---
 
-**Code 1: Extract Files and Save as YAML Format**  
+**`python extract_to_yaml.py: Extract Files and Save as YAML Format**  
 This code is used to extract supported file formats (such as AAMP, BYML, and MSBT) from a specified directory and convert them into YAML format files.
 
 **Usage Steps:**  
